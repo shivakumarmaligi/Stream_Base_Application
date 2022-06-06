@@ -1,0 +1,260 @@
+.movieArticle {
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.movieArticle form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+.movieArticle div{
+  flex-basis: 28%;
+  background: #22222254;
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  margin: 7px;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #11111159;
+}
+
+.movieArticle div input,
+.movieArticle div select {
+  background-color: #111;
+  border: 1px solid #222;
+  padding: 10px 10px;
+  border-radius: 3px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.movieArticle div input {
+  background-color: #111;
+  border: 1px solid #222;
+  padding: 10px 10px;
+  border-radius: 3px;
+  margin: 10px 0px;
+  color: #fff;
+}
+
+.movieArticle div:last-child {
+  flex-basis: 100%;
+  background-color: transparent;
+  border: none;
+}
+.movieArticle div:last-child button {
+  display: inline-block;
+  width: 12%;
+  background: #ffc107;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+#movieBlock article {
+  display: flex;
+  justify-content: space-between;
+}
+
+#movieBlock article > main {
+  flex-basis: 24%;
+  margin: 10px;
+  background-color: #111;
+  border-radius: 10px 10px 0 0;
+}
+
+#movieBlock article > main img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+#movieBlock article > main aside {
+  padding: 20px;
+}
+#movieBlock h2 {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #ffc107;
+}
+.movieContent {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.movieContent li {
+  color: #999999d6;
+  font-size: 13px;
+  text-transform: capitalize;
+  padding: 0px;
+  margin: 1px 7px 1px 0px;
+  list-style: none;
+}
+
+.rating_cast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ratingBlock svg {
+  font-size: 13px;
+  margin: 0 2px;
+}
+.movie_desc {
+  color: #999;
+  font-size: 13px;
+}
+.cast_block {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background: #222;
+  margin: 10px 0;
+  padding: 3px 5px;
+  border-radius: 2px;
+  font-size: 13px;
+  color: #eeee;
+}
+.cast_block span {
+  margin: 1px 5px;
+}
+.movie_footer a {
+  display: block;
+  background: #ffc107;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+  border: 1px solid #111;
+}
+.movie_footer a:hover {
+  background-color: #111;
+  border-bottom: 2px solid #ffc107;
+  color: #fff;
+}
+
+#moviePlayer article main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#moviePlayer article video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoPlayer {
+  flex-basis: 60%;
+  padding: 10px;
+}
+.videoDescription {
+  flex-basis: 40%;
+  padding: 10px;
+}
+
+.videoDescription h2 {
+  text-transform: uppercase;
+  font-size: 3em;
+  color: #ffc107;
+  letter-spacing: 2.1px;
+  font-style: initial;
+  font-weight: bold;
+}
+
+
+/* 
+#authSection {
+  background-color: #333333ba;
+}
+
+.authArticle {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.formBlock {
+  background: #111;
+  padding: 20px;
+  border-bottom: 3px solid #ffc107;
+  border-radius: 6px;
+  width: 80%;
+}
+
+.formDiv {
+  width: 48%;
+  padding: 15px;
+}
+.formForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formLabel {
+  display: block;
+  padding: 5px 0;
+
+  color: #fff;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.formControl {
+  width: 100%;
+  border-radius: 4px;
+  color: white;
+  background: transparent;
+  border: 1px solid #444;
+  padding: 10px 0;
+  margin: 5px 0;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: white;
+  cursor: pointer;
+  margin: 10px 0;
+  border: 1px solid white;
+
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 1px solid #ffc107;
+  color: #ffc107;
+  transform: translate(0.2%);
+}
+
+.slide {
+  -webkit-appearance: none;
+  height: 0.5px;
+  color: tomato;
+  width: 95%;
+} */

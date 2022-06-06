@@ -1,0 +1,117 @@
+:root {
+  --nav-background-color: #403a3ab8;
+  --navColor: #ffc107;
+  --navHeight: 70px;
+  --navwidth: 100%;
+  --navDisplay: flex;
+  --homeHeaderBackGround: transparent;
+}
+#navbarBlock {
+  background-color: var(--nav-background-color);
+  color: var(--navColor);
+  height: var(--navHeight);
+  width: var(--navwidth);
+  /* position: absolute;
+  z-index: 1; */
+  /* ! postion and z-index are giving to home component */
+}
+
+.homeClass{
+  position: absolute;
+  z-index: 1;
+  background-color: var(--homeHeaderBackGround) !important;
+  /* !Based on conition above properties are given */
+}
+
+.navArticle {
+  width: 85%;
+  height: var(--navHeight);
+  display: var(--navDisplay);
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoBlockAnchor {
+  justify-content: center;
+  display: flex;
+  color: #ffc107;
+  text-transform:none;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  font-size: 1.3em;
+  /* text-shadow: 1px 1px 1px red; */
+  align-items: center;
+}
+.logoBlockSpanIcon{
+    color:#fff;
+    padding:0;
+    font-size: 33px;
+    margin:0px 12px 0 0;
+}
+
+.menu > ul {
+ display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbarAnchor{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.navbarIconLink{
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbarIcon{
+  margin: 1px 8px 0 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border-radius: 100%;
+}
+
+/* .dropDown{
+  position: absolute;
+  background: #11111147;
+  width: 268px;
+  min-height: 250px;
+  border-radius: 3px;
+  border-bottom: 3px solid #ffc107;
+  padding: 20px;
+  display: none;
+}
+.dropDown > ul{
+  list-style: none;
+}
+
+.dropDown > ul li a{
+ text-decoration: none;
+ padding: 8px 8px;
+ text-transform: capitalize;
+ color: #fff;
+ width: 100%;
+ display: flex;
+ font-size: 14px;
+ align-items: center;
+ border-bottom: 1px solid #11111147;
+}
+
+.dropDown > ul li a svg{
+  background: #ffc107;
+  color: #111;
+  padding: 0px 6px;
+  margin: 6px 9px 0 0;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 20px;
+  width: 24px;
+} */

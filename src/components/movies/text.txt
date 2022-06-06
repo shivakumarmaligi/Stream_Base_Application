@@ -1,0 +1,174 @@
+ <div className="form-group">
+            <label className={Styles.formLabel} htmlFor="title">
+              Movie Title
+            </label>
+            <input
+              type="text"
+              className={Styles.formControl}
+              id="title"
+              name="title"
+              placeholder="Enter Movie Title"
+              onChange={e => setTitle(e.target.value)}
+            />
+          </div>
+          <div className="form-group">
+            <label className={Styles.formLabel} htmlFor="genere">
+              Movie Genere
+            </label>
+            <input
+              type="text"
+              className={Styles.formControl}
+              id="genere"
+              name="genere"
+              placeholder="Enter Movie Genere"
+              onChange={e => setGenere(e.target.value)}
+            />
+          </div>
+
+          <div className="form-group">
+            <label className={Styles.formLabel} htmlFor="yor">
+              Year of Release
+            </label>
+            <input
+              type="text"
+              id="yor"
+              className={Styles.formControl}
+              name="yor"
+              placeholder="Enter Year of Release"
+              onChange={e => setYol(e.target.value)}
+            />
+          </div>
+
+          <div className="form-group">
+            <label className={Styles.formLabel} htmlFor="descp">
+              Description
+            </label>
+            <input
+              type="text"
+              id="descp"
+              className={Styles.formControl}
+              name="descp"
+              placeholder="Enter Description"
+              onChange={e => setDescription(e.target.value)}
+            />
+          </div>
+
+          <div className="form-group">
+            <label className={Styles.formLabel} htmlFor="ratings">
+              Ratings
+            </label>
+            <input
+              type="text"
+              id="ratings"
+              className={Styles.formControl}
+              name="ratings"
+              placeholder="Enter Ratings"
+              onChange={e => setYol(e.target.value)}
+            />
+          </div>
+
+          <div className="form-group">
+            <label className={Styles.formLabel} htmlFor="photo">
+              Movie Photo
+            </label>
+            <input
+              type="file"
+              id="photo"
+              className={Styles.formControl}
+              name="photo"
+              onChange={e => setPhoto(e.target.files[0])}
+            />
+          </div>
+
+          <div className="form-group">
+            <label className={Styles.formLabel} htmlFor="video">
+              Movie Video
+            </label>
+            <input
+              type="file"
+              id="video"
+              className={Styles.formControl}
+              name="video"
+              onChange={e => setVideo(e.target.files[0])}
+            />
+          </div>
+
+          <div className="form-group">
+            <label className={Styles.formLabel} htmlFor="lang">
+              Movie Language
+            </label>
+            <input
+              type="text"
+              id="lang"
+              className={Styles.formControl}
+              name="lang"
+              onChange={e => setLanguage(e.target.value)}
+            />
+          </div>
+
+          <div className="form-group">
+            <label className={Styles.formLabel} htmlFor="cast">
+              Movie Cast
+            </label>
+            <input
+              type="text"
+              className={Styles.formControl}
+              id="cast"
+              name="cast"
+              onChange={e => setCast(e.target.value)}
+            />
+          </div>
+
+
+
+          .movieArticle {
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.movieArticle form {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.movieArticle div {
+  flex-basis: 32%;
+  background: #22222254;
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  margin: 7px;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #11111159;
+}
+
+.movieArticle div input {
+  background-color: #111;
+  border: 1px solid #222;
+  padding: 10px 10px;
+  border-radius: 3px;
+  margin: 10px 0;
+}
+
+.movieArticle div:last-child {
+  flex-basis: 100%;
+  background-color: transparent;
+  border: none;
+}
+.movieArticle div:last-child button {
+  display: inline-block;
+  width: 12%;
+  background: #ffc107;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
